@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hunt_Area_Center__c</fullName>
+    <displayLocationInDecimal>true</displayLocationInDecimal>
+    <label>Hunt Area Center</label>
+    <required>false</required>
+    <scale>6</scale>
+    <trackTrending>false</trackTrending>
+    <type>Location</type>
+</CustomField>

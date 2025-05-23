@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Deer - Bedding - Buck</fullName>
+                <default>false</default>
+                <label>Deer - Bedding - Buck</label>
+            </value>
+            <value>
+                <fullName>Deer - Bedding - Doe/Unknown</fullName>
+                <default>false</default>
+                <label>Deer - Bedding - Doe/Unknown</label>
+            </value>
+            <value>
+                <fullName>Deer - Droppings</fullName>
+                <default>false</default>
+                <label>Deer - Droppings</label>
+            </value>
+            <value>
+                <fullName>Deer - Food Source</fullName>
+                <default>false</default>
+                <label>Deer - Food Source</label>
+            </value>
+            <value>
+                <fullName>Deer - Ground Scrape</fullName>
+                <default>false</default>
+                <label>Deer - Ground Scrape</label>
+            </value>
+            <value>
+                <fullName>Deer - Sighting - Buck</fullName>
+                <default>false</default>
+                <label>Deer - Sighting - Buck</label>
+            </value>
+            <value>
+                <fullName>Deer - Sighting - Doe</fullName>
+                <default>false</default>
+                <label>Deer - Sighting - Doe</label>
+            </value>
+            <value>
+                <fullName>Deer - Trail Intersection</fullName>
+                <default>false</default>
+                <label>Deer - Trail Intersection</label>
+            </value>
+            <value>
+                <fullName>Deer - Tree Rub</fullName>
+                <default>false</default>
+                <label>Deer - Tree Rub</label>
+            </value>
+            <value>
+                <fullName>Deer - Water Source</fullName>
+                <default>false</default>
+                <label>Deer - Water Source</label>
+            </value>
+            <value>
+                <fullName>HuntSpot - Climber</fullName>
+                <default>false</default>
+                <label>HuntSpot - Climber</label>
+            </value>
+            <value>
+                <fullName>HuntSpot - Ground Blind</fullName>
+                <default>false</default>
+                <label>HuntSpot - Ground Blind</label>
+            </value>
+            <value>
+                <fullName>HuntSpot - Hang on Stand</fullName>
+                <default>false</default>
+                <label>HuntSpot - Hang on Stand</label>
+            </value>
+            <value>
+                <fullName>HuntSpot - Ladder Stand</fullName>
+                <default>false</default>
+                <label>HuntSpot - Ladder Stand</label>
+            </value>
+            <value>
+                <fullName>HuntSpot - Other</fullName>
+                <default>false</default>
+                <label>HuntSpot - Other</label>
+            </value>
+            <value>
+                <fullName>HuntSpot - Saddle</fullName>
+                <default>false</default>
+                <label>HuntSpot - Saddle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

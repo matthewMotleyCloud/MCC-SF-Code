@@ -1,0 +1,13 @@
+<template>
+    <template if:true={weather}>
+        <div>
+            <p><strong>Temerature:</strong> {weather.temp}</p>
+            <p><strong>Wind: </strong> {weather.wind}</p>
+            <p><strong>Short Forecast: </strong> {weather.shortForecast}</p>
+            <p><strong>Long Forecast: </strong> {weather.detailedForecast}</p>
+        </div>
+    </template>
+    <template if:true={error}>
+        <div class="slds-text-color_error">{error}</div>
+    </template>
+</template>

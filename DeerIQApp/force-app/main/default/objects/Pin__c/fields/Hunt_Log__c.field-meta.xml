@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hunt_Log__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Hunt Log</label>
+    <referenceTo>Hunt_Log__c</referenceTo>
+    <relationshipLabel>Sightings (Pins)</relationshipLabel>
+    <relationshipName>Pins</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
