@@ -1,0 +1,48 @@
+.eight-ball {
+    width: 80px;
+    height: 80px;
+    background: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 1rem auto 0 auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    transition: box-shadow 0.2s;
+}
+.eight-ball:active {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+.eight-ball-inner {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eight-ball-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+.eight-ball-label {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.eight-ball-label-white {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+}
+.centered-text {
+    text-align: center;
+    margin-top: 0.5rem;
+}

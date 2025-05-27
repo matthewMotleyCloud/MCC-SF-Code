@@ -1,0 +1,29 @@
+<template>
+    <div class="background-color">
+        <lightning-input
+            label="Principal"
+            name="principal"
+            type="number"
+            value={principal}
+            onchange={handleInputChange}>
+        </lightning-input>
+        <lightning-input
+            label="Annual Interest Rate (%)"
+            name="rate"
+            type="number"
+            step="any"
+            value={rate}
+            onchange={handleInputChange}>
+        </lightning-input>
+        <lightning-input
+            label="Months"
+            name="months"
+            type="number"
+            value={months}
+            onchange={handleInputChange}>
+        </lightning-input>
+        <p> Total Due: {totalDue}</p>
+        <p> Monthly Payment: {monthlyPayment}</p>
+        <p> Total Interest: {totalInterest}</p>
+    </div> 
+</template>

@@ -1,0 +1,16 @@
+<template>
+    <div class="outer-rectangle">
+        <div class ="background-color center-align-text">
+            <h1><strong>Mortgage Calculator Comparison</strong></h1>
+        </div>
+        <div class="side-by-side">
+            <c-mortgage-calc oncalculated={handleCalc1}></c-mortgage-calc>
+            <c-mortgage-calc oncalculated={handleCalc2}></c-mortgage-calc>
+        </div>
+        <div class="delta-results background-color center-align-text">
+            <p>Delta Total Due: ${deltaTotalDue}</p>
+            <p>Delta Monthly Payment: ${deltaMonthlyPayment}</p>
+            <p>Delta Total Interest: ${deltaTotalInterest}</p>
+        </div>
+    </div>
+</template>

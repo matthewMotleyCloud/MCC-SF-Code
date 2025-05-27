@@ -1,0 +1,15 @@
+<template>
+    <div class="eight-ball" onclick={handleClick} tabindex="0" role="button" aria-label="Ask the Magic 8 Ball" style="outline:none;" disabled={thinking}>
+        <div class="eight-ball-inner">
+            <span class="eight-ball-number">8</span>
+        </div>
+    </div>
+    <div class="eight-ball-label">Should I take the loan??? (Click the 8 ball)</div>
+    <template if:true={thinking}>
+        <lightning-spinner variant="brand" alternative-text="Loading"></lightning-spinner>
+        <div class="centered-text">Shake Shake Shake!</div>
+    </template>
+    <template if:true={response}>
+        <div class="eight-ball-label">{response}</div>
+    </template>
+</template>
