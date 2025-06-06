@@ -1,0 +1,27 @@
+<template>
+    <template if:true={plan}>
+        <lightning-card title="Current Account Plan" icon-name="standard:custom">
+            <div class="slds-p-horizontal_medium slds-p-vertical_small">
+                <p><b>Name:</b> {plan.Name}</p>
+                <p><b>Goals:</b></p>
+                <div>
+                    <span>{plainGoals}</span>
+                </div>
+                <p><b>Issues:</b></p>
+                <div>
+                    <span>{plainIssues}</span>
+                </div>
+                <p><b>Sales Potential: </b> <lightning-formatted-number value={plan.Sales_Potential__c} format-style="currency"></lightning-formatted-number></p>
+                <p><b>Sales Forecast: </b> <lightning-formatted-number value={plan.Sales_Forecast__c} format-style="currency"></lightning-formatted-number></p>
+                <p><b>Sales Budget: </b> <lightning-formatted-number value={plan.Sales_Budget__c} format-style="currency"></lightning-formatted-number></p>
+                <p><b>Last Modified: </b> <lightning-formatted-date-time value={plan.LastModifiedDate}></lightning-formatted-date-time></p>
+                <lightning-button label="Edit Account Plan" onclick={handleEditPlan} class="slds-m-top_medium"></lightning-button>
+                <p>Note: Page will need to be refreshed post edit to see changes.</p>
+            </div>
+        </lightning-card>
+    </template>
+    <template if:false={plan}>
+        <lightning-card title="No Account Plan found for current year."></lightning-card>
+        <lightning-button label="Create Account Plan" onclick={handleCreatePlan}></lightning-button>
+    </template>
+</template>
