@@ -1,0 +1,8 @@
+.outer-rectangle {
+    background-color: lightskyblue;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem auto;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    max-width: 600px;
+}
